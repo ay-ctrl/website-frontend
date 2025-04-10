@@ -1,7 +1,7 @@
 # Website Frontend For Technical Service Stores
 
 This is the frontend for **ayda.site**, a dual-interface web platform designed for technical service stores. It supports both user and admin interfaces, offering a user-friendly design and advanced control mechanisms for administrators. The frontend is shared here, while the backend is not included in this repository.
-
+You can simply view it from https://ay-ctrl.github.io/website-frontend/
 ## Features
 
 ### User Interface:

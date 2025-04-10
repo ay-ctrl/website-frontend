@@ -16,5 +16,5 @@ This is the frontend for a website designed for technical service stores. The pr
 To view and test the frontend locally, simply clone the repository:
 
 ```bash
-git clone <repository_url>
+git clone <[repository_url](https://github.com/ay-ctrl/website-frontend)>
 

@@ -1,4 +1,4 @@
-# Website Frontend
+# Website Frontend For Technical Services
 
 This is the frontend for a website designed for technical service stores. The project was developed as part of a university course, where it was connected to a backend. Here, I’m sharing only the frontend of the project.
 

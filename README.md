@@ -59,7 +59,7 @@ This is the frontend for **ayda.site**, a dual-interface web platform designed f
 
 ## Customizing the Website for Your Business
 
-Ayda.site is fully customizable to suit your business needs:
+ayda.site is fully customizable to suit your business needs:
 - **Logo and Brand Colors**: Update the logo and color palette to match your brand.
 - **Text and Images**: Replace demo content with business-specific text and images.
 - **Custom Sections**: Add or modify sections as required.
@@ -91,7 +91,7 @@ For any questions or support regarding Ayda.site, please contact us through the 
 
 ## Updates and Suggestions
 
-Ayda.site can be continuously updated to meet your needs. Please inform us if:
+ayda.site can be continuously updated to meet your needs. Please inform us if:
 - You would like to add new features to the website.
 - You receive customer feedback suggesting design or functionality improvements.
 - There are system errors or requests for enhancements.

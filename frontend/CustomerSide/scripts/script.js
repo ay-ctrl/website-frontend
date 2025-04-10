@@ -45,6 +45,24 @@ function showCampaigns() {
         const response = await fetch(`${window.API_URL}/api/campaigns`);
         const campaigns = await response.json();
 
+        if (!campaigns || campaigns.length === 0) {
+            // Eğer API'den gelen veri boşsa, öntanımlı kampanyalar kullan
+            campaigns = [
+                {
+                    imageURL: '../images/kampanya1.jpg',
+                    description: 'Öntanımlı Kampanya 1: Büyük İndirim!',
+                },
+                {
+                    imageURL: '../images/kampanya2.jpg',
+                    description: 'Öntanımlı Kampanya 2: Yeni Ürün Çıkışı!',
+                },
+                {
+                    imageURL: '../images/kampanya3.jpg',
+                    description: 'Öntanımlı Kampanya 3: Ücretsiz Kargo!',
+                }
+            ];
+        }
+
         const carouselIndicators = document.querySelector('.carousel-indicators');
         const carouselInner = document.querySelector('.carousel-inner');
         const campaignDescription = document.getElementById('campaign-description');

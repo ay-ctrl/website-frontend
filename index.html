@@ -17,9 +17,9 @@
     <meta property="og:title" content="Uygun Fiyatlarla Akıllı Cihaz Tamir Hizmeti Sizlerle">
     <meta property="og:description" content=" Hızlı ve güvenilir tamir için hemen ulaşın.">
     <meta property="og:url" content="https://telefon-tamiri-seng209-211.com.tr/">
-    <link rel="stylesheet" href="frontend/public/CustomerSide/css/common.css">
+    <link rel="stylesheet" href="./frontend/CustomerSide/css/common.css">
     <link rel="stylesheet" href="index.css">
-    <script src="frontend/public/CustomerSide/scripts/script.js"></script>
+    <script src="./frontend/CustomerSide/scripts/script.js"></script>
 </head>
 
 <body>
@@ -28,7 +28,7 @@
         <!-- Logo -->
         <div class="logo">
             <a href="index.html">
-                <img src="/images/ayda-logo.png" alt="Telefon Tamiri" width="150">
+                <img src="./frontend/images/ayda-logo.png" alt="Telefon Tamiri" width="150">
             </a>
         </div>
         <!-- Hamburger Menu -->
@@ -46,22 +46,22 @@
         <!-- Navigation -->
         <nav>
             <ul>
-                <li><a href="/CustomerSide/talepOlustur.html">Talep Oluştur</a></li>
-                <li><a href="/CustomerSide/talepSorgula2.html">Talep Sorgula</a></li>
-                <li><a href="/CustomerSide/products.html">Aksesuar ve Ek Ürünler</a></li>
-                <li><a href="/CustomerSide/hakkımızda.html">Hakkımızda</a></li>
-                <li><a href="/CustomerSide/SSS.html">SSS</a></li>
+                <li><a href="./frontend/CustomerSide/talepOlustur.html">Talep Oluştur</a></li>
+                <li><a href="./frontend/CustomerSide/talepSorgula2.html">Talep Sorgula</a></li>
+                <li><a href="./frontend/CustomerSide/products.html">Aksesuar ve Ek Ürünler</a></li>
+                <li><a href="./frontend/CustomerSide/hakkımızda.html">Hakkımızda</a></li>
+                <li><a href="./frontend/CustomerSide/SSS.html">SSS</a></li>
             </ul>
         </nav>
 
         <!-- Mobile Navigation -->
         <nav class="nav-mobile" id="nav-mobile">
-            <a href="/CustomerSide/talepOlustur.html">Talep Oluştur</a>
-            <a href="/CustomerSide/talepSorgula2.html">Talep Sorgula</a>
-            <a href="/CustomerSide/products.html">Aksesuar ve Ek Ürünler</a>
-            <a href="/CustomerSide/hakkımızda.html">Hakkımızda</a>
-            <a href="/CustomerSide/SSS.html">SSS</a>
-            <a href="/CustomerSide/giris.html" class="giris-btn"><b>Giriş Yap</b></a>
+            <a href="./frontend/CustomerSide/talepOlustur.html">Talep Oluştur</a>
+            <a href="./frontend/CustomerSide/talepSorgula2.html">Talep Sorgula</a>
+            <a href="./frontend/CustomerSide/products.html">Aksesuar ve Ek Ürünler</a>
+            <a href="./frontend/CustomerSide/hakkımızda.html">Hakkımızda</a>
+            <a href="./frontend/CustomerSide/SSS.html">SSS</a>
+            <a href="./frontend/CustomerSide/giris.html" class="giris-btn"><b>Giriş Yap</b></a>
         </nav>
 
         <!-- Login Button -->
@@ -92,12 +92,12 @@
                 </h2>
 
                 <button id="talep-olustur">
-                    <a id="talepButtonLink" href="talepOlustur.html">Talep Oluştur</a>
+                    <a id="talepButtonLink" href="./frontend/CustomerSide/talepOlustur.html">Talep Oluştur</a>
                 </button>
             </div>
         </div>
         <div class="image-container">
-            <img src="/images/iphone-pink.png" alt="Telefon Görseli">
+            <img src="./frontend/images/iphone-pink.png" alt="Telefon Görseli">
         </div>
     </section>
 
@@ -108,11 +108,33 @@
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <!-- Dinamik olarak burada listeler eklenecek -->
+
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+                    
                 </ol>
 
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                     <!-- Dinamik olarak burada kampanyalar eklenecek -->
+
+                    <div class="carousel-item active">
+                        <img src="./frontend/images/kampanya1.jpg" class="d-block w-100" alt="Öntanımlı Kampanya 1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Öntanımlı Kampanya 1: Büyük İndirim!</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./frontend/images/kampanya2.jpg" class="d-block w-100" alt="Öntanımlı Kampanya 2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Öntanımlı Kampanya 2: Yeni Ürün Çıkışı!</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./frontend/images/kampanya3.jpg" class="d-block w-100" alt="Öntanımlı Kampanya 3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Öntanımlı Kampanya 3: Ücretsiz Kargo!</h5>
                 </div>
 
                 <!-- Left and right controls -->
@@ -157,7 +179,7 @@
         <div class="box">
             <div class="icon">
                 <img
-                    src="/images/repair-icon.png">
+                    src="./frontend/images/repair-icon.png">
             </div>
             <h3><b>AYNI GÜN TAMİR FIRSATI</b></h3>
             <p>Cihazınız bozulduğunda keyfiniz kaçmasın, bulunduğunuz yerde aynı gün içerisinde tamir fırsatını
@@ -166,14 +188,14 @@
         <div class="box">
             <div class="icon">
                 <img
-                    src="/images/euro-coin.png">
+                    src="./frontend/images/euro-coin.png">
             </div>
             <h3><b>EN UYGUN FİYAT GARANTİSİ</b></h3>
             <p>Arızayı tespit ederek tamir bedelini hesaplayıp, onayınıza sunulur.</p>
         </div>
         <div class="box">
             <div class="icon">
-                <img src="/images/message-title-icon.png">
+                <img src="./frontend/images/message-title-icon.png">
             </div>
             <h3><b>ANLIK BİLGİLENDİRME</b></h3>
             <p>Kullanıcı dostu uygulamamızla tüm süreçlerde anında bilgi paylaşımı.</p>
@@ -181,7 +203,7 @@
         <div class="box">
             <div class="icon">
                 <img
-                    src="/images/people-rate.png">
+                    src="./frontend/images/people-rate.png">
             </div>
             <h3><b>PROFESYONEL EKİP</b></h3>
             <p>Mesleki yeterlilik belgeli ve alanında uzman kadro.</p>
@@ -253,11 +275,11 @@
             <div class="footer-column">
                 <h3>Telefon Tamiri</h3>
                 <ul>
-                    <li><a href="talepOlustur.html">Talep Oluştur</a></li>
-                    <li><a href="talepSorgula2.html">Talep Sorgula</a></li>
-                    <li><a href="products.html">Aksesuar ve Ek Ürünler</a></li>
-                    <li><a href="hakkımızda.html">Hakkımızda</a></li>
-                    <li><a href="SSS.html">SSS</a></li>
+                    <li><a href="./frontend/CustomerSide/talepOlustur.html">Talep Oluştur</a></li>
+                    <li><a href="./frontend/CustomerSide/talepSorgula2.html">Talep Sorgula</a></li>
+                    <li><a href="./frontend/CustomerSide/products.html">Aksesuar ve Ek Ürünler</a></li>
+                    <li><a href="./frontend/CustomerSide/hakkımızda.html">Hakkımızda</a></li>
+                    <li><a href="./frontend/CustomerSide/SSS.html">SSS</a></li>
                 </ul>
             </div>
             <!-- Orta Sütun -->
